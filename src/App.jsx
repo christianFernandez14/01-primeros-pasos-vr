@@ -6,9 +6,6 @@ const App= ()=>  {
     <div>
       <h1>From App</h1>
       <MiComonente />
-      <MiComonente />
-      <MiComonente />
-      <MiComonente />
     </div>
   )
 }
