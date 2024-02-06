@@ -17,7 +17,7 @@ const App = () => {
       <h1>From App</h1>
       <hr />
       <TercerComponente
-        nombre='Christian'
+        // nombre='Christian'
         apellido='Fernandez'
         ficha={ficha_medica}
       />
