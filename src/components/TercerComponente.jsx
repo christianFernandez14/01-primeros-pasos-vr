@@ -1,6 +1,9 @@
 import PropType from 'prop-types'
 
-const TercerComponente = ({ nombre, apellido, ficha }) => {
+const TercerComponente = ({
+  nombre = 'Nombre por default',
+  apellido = 'Apellido por default',
+  ficha }) => {
 
   const { grupo, estado } = ficha
 
@@ -18,10 +21,17 @@ const TercerComponente = ({ nombre, apellido, ficha }) => {
   )
 }
 
-TercerComponente.prototype ={
+TercerComponente.prototype = {
   nombre: PropType.string.isRequired,
   apellido: PropType.string,
   ficha: PropType.object
 }
+
+// Tambien lo puedes hacer de esta manera
+
+/* TercerComponente.defaultProps = {
+  nombre: 'Juan',
+  apellido: 'Martinez'
+} */
 
 export default TercerComponente
