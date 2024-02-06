@@ -1,4 +1,7 @@
 01 Primeros Pasos en React
 
 
-Creamo el proyecto con vite ( npm create vite@latest )
+Creamos el proyecto con Vite ( npm create vite@latest )
+
+1.- Componente: Partes de la App
+2.- Estructuras de un Componente: Los "imports", la "Funcion" en si; que renderiza algo (return), y para que funcione debes exportalo.  
