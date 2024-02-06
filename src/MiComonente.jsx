@@ -1,10 +1,16 @@
 
 const MiComonente = () => {
   return (
-    <div>
+    <>
       <hr />
-      <h2>From MiComonente</h2>
-    </div>
+      <h2>Componente Creado</h2>
+      <p>Este es mi primer componente</p>
+      <ul>
+        <li>React</li>
+        <li>Angular</li>
+        <li>Vue</li>
+      </ul>
+    </>
   )
 }
 
