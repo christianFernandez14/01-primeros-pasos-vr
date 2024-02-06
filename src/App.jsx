@@ -1,4 +1,5 @@
-import MiComonente from "./MiComonente"
+import MiComonente from "./components/MiComonente"
+import SegundoCoponente from "./components/SegundoCoponente"
 
 const App= ()=>  {
 
@@ -6,6 +7,8 @@ const App= ()=>  {
     <div>
       <h1>From App</h1>
       <MiComonente />
+      <hr />
+      <SegundoCoponente />
     </div>
   )
 }
