@@ -1,6 +1,7 @@
-import MiComonente from "./components/MiComonente"
-import SegundoCoponente from "./components/SegundoCoponente"
+import EventoComponente from "./components/EventoComponente"
 import TercerComponente from "./components/TercerComponente"
+import SegundoCoponente from "./components/SegundoCoponente"
+import MiComonente from "./components/MiComonente"
 
 const App = () => {
 
@@ -15,6 +16,8 @@ const App = () => {
   return (
     <div>
       <h1>From App</h1>
+      <hr />
+      <EventoComponente />
       <hr />
       <TercerComponente
         // nombre='Christian'

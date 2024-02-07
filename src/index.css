@@ -1,0 +1,21 @@
+.mi-evento{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.each-evento {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.mi-mouse{
+  line-height: 20px;
+  background-color: #eee;
+  color: #222;
+}
